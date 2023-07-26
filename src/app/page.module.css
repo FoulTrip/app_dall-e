@@ -1,0 +1,61 @@
+.main {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    min-height: 100vh;
+}
+
+.subMain {
+    flex-basis: 500px;
+}
+
+.app_name {
+    text-align: center;
+    padding: 10px;
+}
+
+.boxInput {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 90%;
+    margin-left: 5%;
+}
+.subBoxInput {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: transparent;
+    background:  #FDF3E7;
+}
+
+.subBoxInput:focus {
+    border: transparent;
+    outline: none;
+}
+
+.boxButton {
+    display: grid;
+    place-content: center;
+    padding: 10px;
+}
+
+.boxButton button {
+    border-radius: 1em;
+    border: none;
+    background: transparent;
+    padding: 10px;
+}
+
+.boxButton button:hover {
+    box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.75);
+    background: #FDF3E7;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .boxButton button {
+        background: #FDF3E7;
+    }
+}
